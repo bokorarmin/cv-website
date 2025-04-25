@@ -1,7 +1,8 @@
 import { createTheme, ThemeOptions } from '@mui/material';
 
-import { darkPalette } from './darkPalette.ts';
 import { fontFamily, getTypography } from '../typography.ts';
+
+import { darkPalette } from './darkPalette.ts';
 
 export const darkTheme = createTheme({
   shape: {
