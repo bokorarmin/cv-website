@@ -1,4 +1,4 @@
-import base from './src/config/i18next-parser.config.base.cjs'
+import base from './config/i18next-parser.config.base.cjs'
 
 export default {
   ...base,
