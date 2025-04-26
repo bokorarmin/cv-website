@@ -1,47 +1,27 @@
 import '../theme/style/background.css';
-import { CssBaseline, GlobalStyles, ThemeProvider } from '@mui/material';
 import { FC, PropsWithChildren } from 'react';
-import { RouterProvider } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
-import { darkTheme } from '../theme/dark/darkTheme.ts';
+import {
+  CommonGlobalStyles,
+  darkTheme,
+  lightTheme,
+  ThemeProvider,
+} from '../theme';
 
-import { router } from './router.tsx';
-
-const AppThemeProvider: FC<PropsWithChildren> = ({ children }) => {
-  return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
-  );
-};
+const AppThemeProvider: FC<PropsWithChildren> = ({ children }) => (
+  <ThemeProvider
+    lightTheme={lightTheme}
+    darkTheme={darkTheme}
+    children={children}
+  />
+);
 
 function App() {
   return (
     <AppThemeProvider>
-      <GlobalStyles
-        styles={(theme) => ({
-          html: {
-            WebkitFontSmoothing: 'auto',
-            backgroundColor: theme.palette.background.default,
-          },
-          body: {
-            margin: 0,
-            fontFamily: theme.typography.fontFamily,
-            backgroundColor: theme.palette.background.default,
-          },
-          [`& input:-webkit-autofill,
-              input:-internal-autofill-selected,
-              input:-webkit-autofill:hover,
-              input:-webkit-autofill:focus,
-              input:-webkit-autofill:active`]: {
-            transition: 'background-color 1000s ease-in-out 0s',
-            boxShadow: 'inherit !important',
-            textFillColor: `${theme.palette.text.primary}`,
-          },
-        })}
-      />
-      <RouterProvider router={router} />
+      <CommonGlobalStyles />
+      <Outlet />
     </AppThemeProvider>
   );
 }

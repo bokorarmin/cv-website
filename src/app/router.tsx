@@ -6,6 +6,12 @@ import { Landing } from './pages/Landing';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Landing />,
+    element: <App />,
+    children: [
+      {
+        index: true,
+        element: <Landing />,
+      },
+    ],
   },
 ]);
