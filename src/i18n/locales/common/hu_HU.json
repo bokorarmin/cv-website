@@ -1,3 +1,5 @@
 {
-  "language": "magyar"
+  "footer": {
+    "rights": "Minden jog fenntartva"
+  }
 }

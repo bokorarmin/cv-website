@@ -1,3 +1,5 @@
 {
-  "language": "english"
+  "footer": {
+    "rights": "All rights reserved",
+  }
 }
