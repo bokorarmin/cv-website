@@ -1,5 +1,11 @@
 {
   "footer": {
-    "rights": "Minden jog fenntartva"
+    "copyright": "© {{year}} Minden jog fenntartva.",
+    "socials": {
+      "email": "email megnyitása",
+      "github": "github megnyitása",
+      "linkedin": "linkedin megnyitása",
+      "phone": "telefon hívása"
+    }
   }
 }

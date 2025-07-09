@@ -1,5 +1,11 @@
 {
   "footer": {
-    "rights": "All rights reserved",
+    "copyright": "© {{year}} All rights reserved.",
+    "socials": {
+      "email": "open email",
+      "github": "open github",
+      "linkedin": "open linkedin",
+      "phone": "open phone"
+    }
   }
 }
