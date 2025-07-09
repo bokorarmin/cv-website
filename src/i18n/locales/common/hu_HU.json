@@ -7,5 +7,10 @@
       "linkedin": "linkedin megnyitása",
       "phone": "telefon hívása"
     }
+  },
+  "landing": {
+    "profile": {
+      "aboutMe": "Egy szenvedélyes és energikus 22 éves vagyok, aki mély büszkeséggel viseltetik a munkája és a cége iránt. Empatikus kommunikátorként, erős emberi kapcsolatteremtő készségekkel könnyen megtalálom a közös hangot bárkivel, és kiválóan érzem magam együttműködő csapatkörnyezetben. Hiszek abban, hogy a munkahelyen erős és támogató közösséget kell építeni, és hogy szoftverfejlesztőként megszerzett tudásomat és készségeimet arra kell használnom, hogy valódi, pozitív hatást érjek el. Számomra a siker nemcsak a kiváló kód megírásáról szól – hanem arról is, hogy együtt dolgozva valami olyat hozzunk létre, ami igazán segíti az embereket."
+    }
   }
 }

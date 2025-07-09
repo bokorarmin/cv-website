@@ -7,5 +7,10 @@
       "linkedin": "open linkedin",
       "phone": "open phone"
     }
+  },
+  "landing": {
+    "profile": {
+     "aboutMe": "I'm a passionate and energetic 22-year-old with a deep sense of pride in the work I do and the company I work for. As an empathetic communicator with strong interpersonal skills, I connect easily with people from all walks of life and thrive in collaborative environments. I believe in building a strong, supportive community at work and using my knowledge and skills as a software developer to create meaningful, positive impact. For me, success is not just about writing great code - it's about working together to build something that truly helps others."
+    }
   }
 }
