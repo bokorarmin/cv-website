@@ -7,10 +7,10 @@ export const Profile = () => {
   return (
     <>
       <Grid container>
-        <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 4 }}>
+        <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 5 }}>
           pic
         </Grid>
-        <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 8 }}>
+        <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 7 }}>
           <Box maxWidth={'sm'}>{t('landing.profile.aboutMe')}</Box>
         </Grid>
       </Grid>
