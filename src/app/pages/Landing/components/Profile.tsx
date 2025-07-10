@@ -8,7 +8,12 @@ export const Profile = () => {
     <>
       <Grid container>
         <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 5 }}>
-          pic
+          <img
+            src="/profile.jpg"
+            alt={t('landing.profile.alt')}
+            width={200}
+            height={200}
+          />
         </Grid>
         <Grid sx={{ textAlign: 'center' }} size={{ xs: 12, sm: 7 }}>
           <Box maxWidth={'sm'}>{t('landing.profile.aboutMe')}</Box>
