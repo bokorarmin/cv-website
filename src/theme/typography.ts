@@ -2,6 +2,7 @@ import { TypographyVariantsOptions } from '@mui/material';
 
 export const fontFamily: TypographyVariantsOptions = {
   fontFamily: [
+    "'Draft B', sans-serif",
     'Roboto',
     'sans-serif',
     '"Apple Color Emoji"',
@@ -12,7 +13,7 @@ export const fontFamily: TypographyVariantsOptions = {
 
 export const getTypography = (): TypographyVariantsOptions => ({
   body1: {
-    fontSize: '16px',
+    fontSize: '17px',
     lineHeight: '19px',
     letterSpacing: 0,
   },

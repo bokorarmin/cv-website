@@ -1,8 +1,4 @@
-import shared from '@terc/shared/i18n/locales/hu_HU.json';
-
 import common from './locales/common/hu_HU.json';
-import info from './locales/info/hu_HU.json';
-import privacy from './locales/privacy-policy/hu_HU.json';
 
 const defaultNS = 'common';
 
@@ -10,9 +6,6 @@ const defaultNS = 'common';
 const resources = {
   hu_HU: {
     common,
-    info,
-    ['privacy-policy']: privacy,
-    shared,
   },
 } as const;
 

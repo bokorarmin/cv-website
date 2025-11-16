@@ -1,16 +1,67 @@
 {
   "footer": {
-    "copyright": "© {{year}} All rights reserved.",
+    "copyright": "© 2025 Bokor Ármin. All rights reserved.",
+    "downloadCV": "Download CV",
+    "name": "Bokor Ármin",
     "socials": {
-      "email": "open email",
-      "github": "open github",
-      "linkedin": "open linkedin",
-      "phone": "open phone"
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "phone": "Phone"
+    },
+    "tagline": "Full Stack Developer"
+  },
+  "header": {
+    "navItems": {
+      "title": {
+        "experience": "Experience",
+        "footer": "Contact",
+        "profile": "Profile"
+      }
     }
   },
   "landing": {
+    "experience": {
+      "exp1": {
+        "company": "Terc kft.",
+        "description": "Modernizing the construction industy one vision at a time.",
+        "period": "2024 - Present",
+        "position": "Full Stack Developer",
+        "resp1": "Architected and developed scalable web applications",
+        "resp2": "Created multiple MVP and production-ready applications starting from a vision",
+        "resp3": "Worked closely with data scientists to integrate machine learning models into applications"
+      },
+      "exp2": {
+        "company": "Világszép Alapítvány",
+        "description": "Created an in house web application to streamline operations for a non-profit organization.",
+        "period": "2024 - 2024",
+        "position": "Full Stack Developer",
+        "resp1": "Built responsive web applications from scratch",
+        "resp2": "Collaborated with clients to understand their needs and deliver tailored solutions",
+        "resp3": "Deplozyed and maintained applications on cloud platforms"
+      },
+      "exp3": {
+        "company": "Codecool kft.",
+        "description": "Started my journey as a developer with a full stack development course.",
+        "period": "2023 - 2024",
+        "position": "Junior Full Stack Developer",
+        "resp1": "Learned full stack and web developement fundamentals",
+        "resp2": "Learned how to work together as part of a development team",
+        "resp3": "Participated in code reviews and pair programming"
+      },
+      "label": "Career Journey",
+      "subtitle": "My professional experience and career highlights. Detailed description in CV.",
+      "title": "Work Experience"
+    },
     "profile": {
-     "aboutMe": "I'm a passionate and energetic 22-year-old with a deep sense of pride in the work I do and the company I work for. As an empathetic communicator with strong interpersonal skills, I connect easily with people from all walks of life and thrive in collaborative environments. I believe in building a strong, supportive community at work and using my knowledge and skills as a software developer to create meaningful, positive impact. For me, success is not just about writing great code - it's about working together to build something that truly helps others."
+      "aboutMe": "I'm a passionate and energetic 23-year-old with a deep sense of pride in the work I do and the company I work for. As an empathetic communicator with strong interpersonal skills, I connect easily with people from all walks of life and thrive in collaborative environments. I believe in building a strong, supportive community at work and using my knowledge and skills as a software developer to create meaningful, positive impact. For me, success is not just about writing great code - it's about working together to build something that truly helps others.",
+      "alt": "profile_img",
+      "label": "Get to know me",
+      "title": "About Me",
+      "traits": {
+        "creative": "Creative",
+        "innovative": "Innovative"
+      }
     }
   }
 }

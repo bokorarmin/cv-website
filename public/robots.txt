@@ -1,0 +1,6 @@
+# Allow all crawlers to index everything
+User-agent: *
+Disallow:
+
+# Specify sitemap location
+Sitemap: https://bokorarmin.com/sitemap.xml

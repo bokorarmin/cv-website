@@ -1,0 +1,68 @@
+{
+  "footer": {
+    "copyright": "© 2025 Bokor Ármin. Tous droits réservés.",
+    "downloadCV": "Télécharger le CV",
+    "name": "Bokor Ármin",
+    "socials": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "phone": "Téléphone"
+    },
+    "tagline": "Développeur Full Stack"
+  },
+  "header": {
+    "navItems": {
+      "title": {
+        "experience": "Expérience",
+        "footer": "Contact",
+        "profile": "Profil",
+        "skills": "Compétences"
+      }
+    }
+  },
+  "landing": {
+    "experience": {
+      "exp1": {
+        "company": "Terc SARL",
+        "description": "Moderniser l’industrie de la construction, une vision à la fois.",
+        "period": "2024 - Présent",
+        "position": "Développeur Full Stack",
+        "resp1": "Conception et développement d’applications web évolutives",
+        "resp2": "Création de plusieurs MVP et applications prêtes pour la production à partir d’une vision initiale",
+        "resp3": "Collaboration avec des data scientists pour intégrer des modèles de machine learning dans les applications"
+      },
+      "exp2": {
+        "company": "Fondation Világszép",
+        "description": "Création d’une application web interne pour optimiser les opérations d’une organisation à but non lucratif.",
+        "period": "2024 - 2024",
+        "position": "Développeur Full Stack",
+        "resp1": "Développement d’applications web responsives depuis zéro",
+        "resp2": "Collaboration avec les clients pour comprendre leurs besoins et fournir des solutions sur mesure",
+        "resp3": "Déploiement et maintenance d’applications sur des plateformes cloud"
+      },
+      "exp3": {
+        "company": "Codecool SARL",
+        "description": "Début de mon parcours de développeur avec une formation en développement full stack.",
+        "period": "2023 - 2024",
+        "position": "Développeur Full Stack Junior",
+        "resp1": "Apprentissage des bases du développement full stack et du développement web",
+        "resp2": "Apprentissage du travail d’équipe au sein d’un groupe de développement",
+        "resp3": "Participation à des revues de code et à du pair programming"
+      },
+      "label": "Parcours professionnel",
+      "subtitle": "Mon expérience professionnelle et les moments forts de ma carrière. Description détaillée dans le CV.",
+      "title": "Expérience professionnelle"
+    },
+    "profile": {
+      "aboutMe": "Je suis un jeune de 23 ans passionné et plein d’énergie, fier du travail que j’accomplis et de l’entreprise que je représente. En tant que communicant empathique doté de fortes compétences interpersonnelles, je me connecte facilement avec des personnes de tous horizons et je m’épanouis dans les environnements collaboratifs. Je crois en l’importance de construire une communauté solide et bienveillante au travail, et d’utiliser mes compétences de développeur pour créer un impact positif et significatif. Pour moi, la réussite ne se résume pas à écrire du bon code – c’est travailler ensemble pour construire quelque chose qui aide réellement les autres.",
+      "alt": "profile_img",
+      "label": "Apprenez à me connaître",
+      "title": "À propos de moi",
+      "traits": {
+        "creative": "Créatif",
+        "innovative": "Innovant"
+      }
+    }
+  }
+}

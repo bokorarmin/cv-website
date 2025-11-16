@@ -1,16 +1,67 @@
 {
   "footer": {
-    "copyright": "© {{year}} Minden jog fenntartva.",
+    "copyright": "© 2025 Bokor Ármin. Minden jog fenntartva.",
+    "downloadCV": "Önéletrajz letöltése",
+    "name": "Bokor Ármin",
     "socials": {
-      "email": "email megnyitása",
-      "github": "github megnyitása",
-      "linkedin": "linkedin megnyitása",
-      "phone": "telefon hívása"
+      "email": "E-mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "phone": "Telefon"
+    },
+    "tagline": "Full Stack fejlesztő"
+  },
+  "header": {
+    "navItems": {
+      "title": {
+        "experience": "Tapasztalat",
+        "footer": "Kapcsolat",
+        "profile": "Profil"
+      }
     }
   },
   "landing": {
+    "experience": {
+      "exp1": {
+        "company": "Terc Kft.",
+        "description": "A modern építőipar fejlesztése egy víziótól indulva.",
+        "period": "2024 – Jelenleg",
+        "position": "Full Stack fejlesztő",
+        "resp1": "Skálázható webalkalmazások tervezése és fejlesztése",
+        "resp2": "Több MVP és később éles rendszerré fejlődő alkalmazás megvalósítása egy kezdeti vízió alapján",
+        "resp3": "Gépi tanulási modellek integrálása alkalmazásokba adattudósokkal együttműködve"
+      },
+      "exp2": {
+        "company": "Világszép Alapítvány",
+        "description": "Házon belüli webalkalmazás fejlesztése a nonprofit szervezet működésének egyszerűsítésére.",
+        "period": "2024 – 2024",
+        "position": "Full Stack fejlesztő",
+        "resp1": "Reszponzív webalkalmazások fejlesztése az alapoktól",
+        "resp2": "Együttműködés az ügyfelekkel az igények felméréséhez és személyre szabott megoldások szállításához",
+        "resp3": "Alkalmazások telepítése és karbantartása felhőalapú platformokon"
+      },
+      "exp3": {
+        "company": "Codecool Kft.",
+        "description": "Fejlesztői pályafutásom kezdete egy intenzív full stack képzéssel.",
+        "period": "2023 – 2024",
+        "position": "Junior Full Stack fejlesztő",
+        "resp1": "A full stack és webfejlesztés alapjainak elsajátítása",
+        "resp2": "Hatékony csapatmunka és együttműködés gyakorlása",
+        "resp3": "Részvétel kódfelülvizsgálatokon és páros programozásban"
+      },
+      "label": "Karrierutam",
+      "subtitle": "Szakmai tapasztalataim és pályám fontosabb állomásai. Részletes leírás az önéletrajzban.",
+      "title": "Munkatapasztalat"
+    },
     "profile": {
-      "aboutMe": "Egy szenvedélyes és energikus 22 éves vagyok, aki mély büszkeséggel viseltetik a munkája és a cége iránt. Empatikus kommunikátorként, erős emberi kapcsolatteremtő készségekkel könnyen megtalálom a közös hangot bárkivel, és kiválóan érzem magam együttműködő csapatkörnyezetben. Hiszek abban, hogy a munkahelyen erős és támogató közösséget kell építeni, és hogy szoftverfejlesztőként megszerzett tudásomat és készségeimet arra kell használnom, hogy valódi, pozitív hatást érjek el. Számomra a siker nemcsak a kiváló kód megírásáról szól – hanem arról is, hogy együtt dolgozva valami olyat hozzunk létre, ami igazán segíti az embereket."
+      "aboutMe": "Szenvedélyes és energikus, 23 éves fejlesztő vagyok, aki nagy büszkeséggel végzi a munkáját és képviseli a munkahelyét. Empatikus kommunikátorként és erős emberi készségekkel könnyen kapcsolódom különböző hátterű emberekhez, és kifejezetten jól érzem magam együttműködésre építő környezetben. Hiszek abban, hogy erős és támogató közösséget kell építeni a munkahelyen, és hogy fejlesztőként a tudásomat arra kell használnom, hogy valódi, pozitív hatást hozzak létre. Számomra a siker nem csak a jó kódról szól – hanem arról, hogy együtt olyan dolgokat építünk, amelyek valóban segítenek másoknak.",
+      "alt": "profile_img",
+      "label": "Ismerj meg",
+      "title": "Rólam",
+      "traits": {
+        "creative": "Kreatív",
+        "innovative": "Innovatív"
+      }
     }
   }
 }

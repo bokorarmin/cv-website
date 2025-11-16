@@ -1,0 +1,68 @@
+{
+  "footer": {
+    "copyright": "© 2025 Bokor Ármin. Alle Rechte vorbehalten.",
+    "downloadCV": "Lebenslauf herunterladen",
+    "name": "Bokor Ármin",
+    "socials": {
+      "email": "E-Mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "phone": "Telefon"
+    },
+    "tagline": "Full-Stack-Entwickler"
+  },
+  "header": {
+    "navItems": {
+      "title": {
+        "experience": "Erfahrung",
+        "footer": "Kontakt",
+        "profile": "Profil",
+        "skills": "Fähigkeiten"
+      }
+    }
+  },
+  "landing": {
+    "experience": {
+      "exp1": {
+        "company": "Terc GmbH",
+        "description": "Modernisierung der Bauindustrie – eine Vision nach der anderen.",
+        "period": "2024 – Gegenwart",
+        "position": "Full-Stack-Entwickler",
+        "resp1": "Architektur und Entwicklung skalierbarer Webanwendungen",
+        "resp2": "Entwicklung mehrerer MVPs und produktionsreifer Anwendungen ausgehend von einer Vision",
+        "resp3": "Enge Zusammenarbeit mit Data Scientists zur Integration von Machine-Learning-Modellen"
+      },
+      "exp2": {
+        "company": "Világszép Stiftung",
+        "description": "Entwicklung einer internen Webanwendung zur Optimierung der Abläufe einer gemeinnützigen Organisation.",
+        "period": "2024 – 2024",
+        "position": "Full-Stack-Entwickler",
+        "resp1": "Erstellung responsiver Webanwendungen von Grund auf",
+        "resp2": "Zusammenarbeit mit Kunden zur Bedarfsermittlung und Bereitstellung maßgeschneiderter Lösungen",
+        "resp3": "Bereitstellung und Wartung von Anwendungen auf Cloud-Plattformen"
+      },
+      "exp3": {
+        "company": "Codecool GmbH",
+        "description": "Beginn meines Entwicklerweges mit einem Full-Stack-Entwicklungskurs.",
+        "period": "2023 – 2024",
+        "position": "Junior Full-Stack-Entwickler",
+        "resp1": "Erlernen der Grundlagen von Full-Stack- und Webentwicklung",
+        "resp2": "Erlernen effektiver Teamarbeit in einem Entwicklerteam",
+        "resp3": "Teilnahme an Code-Reviews und Pair-Programming"
+      },
+      "label": "Beruflicher Werdegang",
+      "subtitle": "Meine berufliche Erfahrung und die wichtigsten Stationen meiner Laufbahn. Ausführliche Beschreibung im Lebenslauf.",
+      "title": "Berufserfahrung"
+    },
+    "profile": {
+      "aboutMe": "Ich bin ein leidenschaftlicher und energiegeladener 23-Jähriger, der stolz auf die Arbeit ist, die er leistet, und auf das Unternehmen, für das er arbeitet. Als empathischer Kommunikator mit starken zwischenmenschlichen Fähigkeiten knüpfe ich leicht Kontakt zu Menschen aus allen Lebensbereichen und fühle mich besonders wohl in kollaborativen Umgebungen. Ich glaube daran, eine starke, unterstützende Gemeinschaft am Arbeitsplatz aufzubauen und mein Wissen und meine Fähigkeiten als Softwareentwickler zu nutzen, um einen bedeutenden, positiven Einfluss zu schaffen. Für mich bedeutet Erfolg nicht nur, großartigen Code zu schreiben – sondern gemeinsam etwas aufzubauen, das anderen wirklich hilft.",
+      "alt": "profile_img",
+      "label": "Lerne mich kennen",
+      "title": "Über mich",
+      "traits": {
+        "creative": "Kreativ",
+        "innovative": "Innovativ"
+      }
+    }
+  }
+}

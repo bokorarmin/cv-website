@@ -1,28 +1,40 @@
-import '../theme/style/background.css';
-import { FC, PropsWithChildren } from 'react';
-import { Outlet } from 'react-router-dom';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { useRef } from 'react';
 
-import {
-  CommonGlobalStyles,
-  darkTheme,
-  lightTheme,
-  ThemeProvider,
-} from '../theme';
+import '../theme/index.css';
 
-const AppThemeProvider: FC<PropsWithChildren> = ({ children }) => (
-  <ThemeProvider
-    lightTheme={lightTheme}
-    darkTheme={darkTheme}
-    children={children}
-  />
-);
+import { CommonGlobalStyles } from '../theme/CommonGlobalStyles';
+import { lightTheme } from '../theme/light/ligthTheme';
+
+import { Layout } from './components/Layout';
+import { Landing } from './pages/Landing';
 
 function App() {
+  const bioRef = useRef<HTMLDivElement | null>(null);
+  const experienceRef = useRef<HTMLDivElement | null>(null);
+  const skillsRef = useRef<HTMLDivElement | null>(null);
+  const footerRef = useRef<HTMLDivElement | null>(null);
   return (
-    <AppThemeProvider>
+    <ThemeProvider theme={lightTheme}>
       <CommonGlobalStyles />
-      <Outlet />
-    </AppThemeProvider>
+      <CssBaseline />
+      <Layout
+        sectionRefs={{
+          bio: bioRef,
+          experience: experienceRef,
+          skills: skillsRef,
+          footer: footerRef,
+        }}
+      >
+        <Landing
+          sectionRefs={{
+            bio: bioRef,
+            experience: experienceRef,
+            skills: skillsRef,
+          }}
+        />
+      </Layout>
+    </ThemeProvider>
   );
 }
 
