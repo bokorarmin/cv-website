@@ -24,7 +24,7 @@ interface HeaderProps {
 export const Header = ({ sectionRefs, window }: HeaderProps) => {
   const theme = useTheme();
   const { t } = useTranslation();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'), { noSsr: true });
   const { i18n } = useTranslation();
   const [language, setLanguage] = React.useState(i18n.language || 'hu_HU');
 
