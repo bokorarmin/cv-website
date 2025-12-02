@@ -20,29 +20,14 @@ export const Experiences = () => {
   const experiences: Experience[] = [
     {
       id: '1',
-      company: t('landing.experience.exp1.company', 'Tech Solutions Inc.'),
-      position: t(
-        'landing.experience.exp1.position',
-        'Senior Full Stack Developer'
-      ),
-      period: t('landing.experience.exp1.period', '2022 - Present'),
-      description: t(
-        'landing.experience.exp1.description',
-        'Leading development of enterprise web applications and mentoring junior developers.'
-      ),
+      company: t('landing.experience.exp1.company'),
+      position: t('landing.experience.exp1.position'),
+      period: t('landing.experience.exp1.period'),
+      description: t('landing.experience.exp1.description'),
       responsibilities: [
-        t(
-          'landing.experience.exp1.resp1',
-          'Architected and developed scalable web applications'
-        ),
-        t(
-          'landing.experience.exp1.resp2',
-          'Led a team of 5 developers in agile environment'
-        ),
-        t(
-          'landing.experience.exp1.resp3',
-          'Improved application performance by 40%'
-        ),
+        t('landing.experience.exp1.resp1'),
+        t('landing.experience.exp1.resp2'),
+        t('landing.experience.exp1.resp3'),
       ],
       technologies: [
         'TypeScript',
@@ -56,51 +41,27 @@ export const Experiences = () => {
     },
     {
       id: '2',
-      company: t('landing.experience.exp2.company', 'Digital Agency Co.'),
-      position: t('landing.experience.exp2.position', 'Full Stack Developer'),
-      period: t('landing.experience.exp2.period', '2020 - 2022'),
-      description: t(
-        'landing.experience.exp2.description',
-        'Developed custom web solutions for various clients across different industries.'
-      ),
+      company: t('landing.experience.exp2.company'),
+      position: t('landing.experience.exp2.position'),
+      period: t('landing.experience.exp2.period'),
+      description: t('landing.experience.exp2.description'),
       responsibilities: [
-        t(
-          'landing.experience.exp2.resp1',
-          'Built responsive web applications from scratch'
-        ),
-        t(
-          'landing.experience.exp2.resp2',
-          'Collaborated with design team for optimal UX'
-        ),
-        t(
-          'landing.experience.exp2.resp3',
-          'Maintained and optimized existing codebases'
-        ),
+        t('landing.experience.exp2.resp1'),
+        t('landing.experience.exp2.resp2'),
+        t('landing.experience.exp2.resp3'),
       ],
       technologies: ['JavaScript', 'Java', 'React', 'PostgreSQL', 'Docker'],
     },
     {
       id: '3',
-      company: t('landing.experience.exp3.company', 'StartUp Ventures'),
-      position: t('landing.experience.exp3.position', 'Junior Developer'),
-      period: t('landing.experience.exp3.period', '2018 - 2020'),
-      description: t(
-        'landing.experience.exp3.description',
-        'Started my professional journey building features for a growing SaaS platform.'
-      ),
+      company: t('landing.experience.exp3.company'),
+      position: t('landing.experience.exp3.position'),
+      period: t('landing.experience.exp3.period'),
+      description: t('landing.experience.exp3.description'),
       responsibilities: [
-        t(
-          'landing.experience.exp3.resp1',
-          'Implemented new features based on user feedback'
-        ),
-        t(
-          'landing.experience.exp3.resp2',
-          'Fixed bugs and improved code quality'
-        ),
-        t(
-          'landing.experience.exp3.resp3',
-          'Participated in code reviews and pair programming'
-        ),
+        t('landing.experience.exp3.resp1'),
+        t('landing.experience.exp3.resp2'),
+        t('landing.experience.exp3.resp3'),
       ],
       technologies: [
         'JavaScript',
