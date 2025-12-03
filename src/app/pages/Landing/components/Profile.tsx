@@ -42,7 +42,7 @@ export const Profile = () => {
 
             <Typography
               variant="h3"
-              component="h2"
+              component="h1"
               sx={{
                 color: theme.palette.text.primary,
                 fontSize: { xs: '1.75rem', sm: '2rem', md: '2.75rem' },
@@ -72,6 +72,7 @@ export const Profile = () => {
 
             <Typography
               variant="body1"
+              component={'h2'}
               sx={{
                 color: theme.palette.text.secondary,
                 lineHeight: 1.8,

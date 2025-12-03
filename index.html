@@ -2,36 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    
+
     <!-- Primary Meta Tags -->
     <title>Bokor Ármin - Software Developer | Enterprise Web Applications</title>
-    <meta name="description" content="Software Developer specializing in enterprise web applications. Contact via GitHub, LinkedIn, Email, or Phone. Download CV available.">
+    <meta name="description" content="Software Developer specializing in enterprise web applications, frontend/backend engineering, and scalable systems. Contact via GitHub, LinkedIn, Email, or Phone.">
     <meta name="keywords" content="Software Developer, Bokor Ármin, enterprise web applications, full-stack developer, GitHub, LinkedIn, contact developer, download CV">
     <meta name="author" content="Bokor Ármin">
-    
-    <!-- Open Graph Tags -->
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Bokor Ármin - Software Developer">
-    <meta property="og:description" content="Software Developer specializing in enterprise web applications. Connect on GitHub, LinkedIn, Email, or Phone.">
+    <meta property="og:description" content="Software Developer specializing in enterprise web applications. Connect on GitHub or LinkedIn.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bokorarmin.com">
     <meta property="og:image" content="https://bokorarmin.com/og-image.png">
-    
-    <!-- Twitter Card Tags -->
+    <meta property="og:site_name" content="Bokor Ármin Portfolio">
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bokor Ármin - Software Developer">
-    <meta name="twitter:description" content="Software Developer | GitHub: @bokorarmin | LinkedIn: /in/barmin | Email: bokorarmin4@gmail.com | Phone: +36 20 323 7307">
+    <meta name="twitter:description" content="Full-stack software developer specializing in enterprise-grade web applications.">
     <meta name="twitter:image" content="https://bokorarmin.com/og-image.png">
-    
+
+    <!-- Fonts -->
     <link href="https://fonts.cdnfonts.com/css/fruitella" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/draft-b" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    
-    <!-- Structured Data for better SEO -->
+
+    <!-- Schema: Person + Organization (includes logo for search results) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -39,14 +40,26 @@
       "name": "Bokor Ármin",
       "jobTitle": "Software Developer",
       "url": "https://bokorarmin.com",
+      "image": "https://bokorarmin.com/og-image.png",
       "sameAs": [
         "https://github.com/bokorarmin",
         "https://www.linkedin.com/in/barmin"
       ],
       "email": "mailto:bokorarmin4@gmail.com",
       "telephone": "+36-20-323-7307",
-      "description": "Software Developer specializing in enterprise web applications and mentoring junior developers."
+      "description": "Software Developer specializing in enterprise web applications and mentoring junior developers.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Bokor Ármin",
+        "url": "https://bokorarmin.com",
+        "logo": "https://bokorarmin.com/logo.png"
+      }
     }
     </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
